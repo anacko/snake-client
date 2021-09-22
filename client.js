@@ -13,14 +13,8 @@ const connect = function (name) {
   conn.on("connect", () => {
     console.log("Successful connection. Yay!");
     conn.write(`Name: ${name}`)
-    //conn.write("Move: up")
-    //setTimeout(() => conn.write("Move: left"), 100);
-    //setInterval(() => conn.write("Move: up"), 50)
+  });
 
-
-  })
-
-  
   return conn;
 };
 
