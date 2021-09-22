@@ -1,5 +1,6 @@
 const { connect } = require('./client')
-const { setupInput, connection } = require('./input')
+const { setupInput, handleUserInput, connection } = require('./input')
 
-connect('Ana')
+connect('Ana', "Yolo")
+
 setupInput(connect(connection));
