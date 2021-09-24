@@ -1,3 +1,4 @@
+const { MOVE_KEYS, TALK_KEYS } = require("./constants");
 let connection;
 
 const setupInput = function (conn) {
